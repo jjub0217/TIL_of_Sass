@@ -76,7 +76,7 @@
       border-radius: 20px;
   
       & > a{ // ───────────────────┐           ┌───── #box1 > a {
-        color:#a22;//.             │     =   	 │		     color:#a22;
+        color:#a22;//.             │     =   	              │		     color:#a22;
         text-decoration: none;//   ├─ ───────  ┤	  	     text-decoration: none
       }// ─────────────────────────┘			     └──────  }	
   }
