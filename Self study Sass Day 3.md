@@ -53,9 +53,9 @@
   
        
        &-title{ // ─────────────────────┐           ┌───── #box1-title{
-         font-style: italic;//		  │     =     │		     font-style: italic;
+         font-style: italic;//		      │     =     │		     font-style: italic;
          text-decoration: underline;//  ├─ ───────  ┤	  	     text-decoration: underline
-      }// ──────────────────────────────┘			  └──────  }	
+      }// ──────────────────────────────┘			      └──────  }	
   }
   
   ```
@@ -76,9 +76,9 @@
       border-radius: 20px;
   
       & > a{ // ───────────────────┐           ┌───── #box1 > a {
-        color:#a22;//			     │     =   	 │		     color:#a22;
+        color:#a22;//			         │     =   	 │		     color:#a22;
         text-decoration: none;//   ├─ ───────  ┤	  	     text-decoration: none
-      }// ─────────────────────────┘			 └──────  }	
+      }// ─────────────────────────┘			     └──────  }	
   }
   ```
 
@@ -101,14 +101,14 @@
   
       // ┌> 여기에서 & 는 #box1 을 나타낸다.
        & > a{ // ───────────────────────────────┐           ┌───── #box1 > a {
-        	color:#a22;//			              │           │		     color:#a22;
+        	color:#a22;//			                    │           │		     color:#a22;
           text-decoration: none;/*              │           └──────	 text-decoration: none }
-              					              │    ===                                           */
+              					                        │    ===                                           */
            // ┌> 여기에서 & sms #box1 > a 를 나타낸다.
-           &:hover{ //            			  │	          ┌───── #box1 > a:hover {
-                color:#000;//			          │           │		     color:#000;
+           &:hover{ //            			        │	          ┌───── #box1 > a:hover {
+                color:#000;//			              │           │		     color:#000;
                 text-decoration: underline;//   │           │	  	     text-decoration: underline;
-              }//                               │			  └──────  }	
+              }//                               │			      └──────  }	
       }// ──────────────────────────────────────┘
     }
   ```
