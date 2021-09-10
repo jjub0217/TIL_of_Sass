@@ -55,7 +55,7 @@
        &-title{ // ─────────────────────┐           ┌───── #box1-title{
          font-style: italic;//.         │     =     │		     font-style: italic;
          text-decoration: underline;//  ├─ ───────  ┤	  	     text-decoration: underline
-      }// ──────────────────────────────┘			      └──────  }	
+      }// ──────────────────────────┘			      └───  }	
   }
   
   ```
