@@ -100,7 +100,7 @@
       box-shadow: 0px 3px 11px 0px rgba(0, 0, 0, 0.75);
   
       // ┌> 여기에서 & 는 #box1 을 나타낸다.
-       & > a{ // ───────────────────────────────┐           ┌───── #box1 > a {
+       & > a{ // ────────────────────────────┐           ┌───── #box1 > a {
         	color:#a22;//			                    │           │		     color:#a22;
           text-decoration: none;/*              │           └──────	 text-decoration: none }
               					                        │    ===                                           */
